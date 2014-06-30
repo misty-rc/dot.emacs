@@ -1,10 +1,5 @@
 ;;; -*- coding: utf-8 -*-
 
-(let ((default-directory (expand-file-name "~/.emacs.d/site-lisp")))
-  (add-to-list 'load-path default-directory)
-  (if (fboundp 'normal-top-level-add-subdirs-to-load-path)
-      (normal-top-level-add-subdirs-to-load-path)))
-
 ;;; package initialize
 (require 'package)
 (add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages/"))
