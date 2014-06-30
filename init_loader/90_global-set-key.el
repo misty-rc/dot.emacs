@@ -6,6 +6,7 @@
 
 ;; helm
 (global-set-key (kbd "C-;") 'helm-mini)
+(global-set-key (kbd "C-c h") 'helm-mini)
 (global-set-key (kbd "M-x") 'helm-M-x)
 (global-set-key (kbd "C-c b") 'helm-descbinds)
 (global-set-key (kbd "C-c o") 'helm-occur)
