@@ -1,0 +1,3 @@
+;; direx-el
+(require 'direx)
+

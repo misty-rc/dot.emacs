@@ -1,0 +1,2 @@
+;; powerline
+(powerline-default-theme)

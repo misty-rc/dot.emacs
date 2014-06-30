@@ -1,0 +1,7 @@
+.backup
+auto-save-list
+*.elc
+*~
+ac-comphist.dat
+elpa
+server
