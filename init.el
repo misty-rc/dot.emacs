@@ -24,6 +24,8 @@
     helm-flycheck
     helm-package
     js2-mode
+    markdown-mode
+    markdown-mode+
     magit
     popwin
     powerline
