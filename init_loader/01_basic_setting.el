@@ -7,15 +7,6 @@
 (set-buffer-file-coding-system 'utf-8)
 (prefer-coding-system 'utf-8)
 
-(setq default-frame-alist
-       (append (list
-                '(left . 30)
-                '(top  . 10)
-                '(width  .  150)
-                '(height .  50)
-                )
-               default-frame-alist))
-
 (setq-default tab-width 4 indent-tabs-mode nil)
 (tool-bar-mode 0)
 (show-paren-mode 1)

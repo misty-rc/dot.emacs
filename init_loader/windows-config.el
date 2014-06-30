@@ -41,3 +41,13 @@
 (set-frame-font (concat FONT_FAMILY "-" (format "%s" FONT_SIZE)))
 
 (setq default-file-name-coding-system 'shift_jis) ;dired文字化け対策
+
+;; frame set
+(setq default-frame-alist
+       (append (list
+                '(left . 30)
+                '(top  . 10)
+                '(width  .  150)
+                '(height .  50)
+                )
+               default-frame-alist))
