@@ -23,6 +23,7 @@
     helm-descbinds
     helm-flycheck
     helm-package
+    helm-go-package
     js2-mode
     markdown-mode
     markdown-mode+
