@@ -28,6 +28,7 @@
     markdown-mode
     markdown-mode+
     magit
+    twittering-mode
     popwin
     powerline
     rainbow-delimiters
