@@ -6,4 +6,5 @@
      (add-hook 'go-mode-hook
                #'(lambda ()
                    (go-eldoc-setup)))
-     (add-hook 'before-save-hook 'gofmt-before-save)))
+     (add-hook 'before-save-hook 'gofmt-before-save)
+     (substitute-key-definition 'go-import-add 'helm-go-package go-mode-map)))
