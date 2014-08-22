@@ -1,6 +1,6 @@
 ;;; -*- coding: utf-8 -*-
-(setq default-directory "c:/users/arai/")
-(setq command-line-default-directory "c:/users/arai")
+(setq default-directory "~/")
+(setq command-line-default-directory "~/")
 
 
 ;;;** 標準IMEの設定
