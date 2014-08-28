@@ -29,6 +29,8 @@
     markdown-mode+
     magit
     twittering-mode
+    plsql
+    sql-indent
     popwin
     powerline
     rainbow-delimiters
