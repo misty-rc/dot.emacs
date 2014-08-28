@@ -17,10 +17,14 @@
 * helm-descbinds
 * helm-flycheck
 * helm-package
+* helm-go-package
 * js2-mode
 * markdown-mode
 * markdown-mode+
 * magit
+* twittering-mode
+* plsql
+* sql-indent
 * popwin
 * powerline
 * rainbow-delimiters
