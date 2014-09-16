@@ -12,6 +12,10 @@
 (push '("^\*shell*" :regexp t :position bottom :height 0.3 :dedicated t)
       popwin:special-display-config)
 
+;; shell-mode
+(push '("^\*eshell*" :regexp t :position bottom :height 0.3 :dedicated t)
+      popwin:special-display-config)
+
 ;; direx
 (push '(direx:direx-mode :position left :width 0.3 :dedicated t)
       popwin:special-display-config)
@@ -22,3 +26,7 @@
 
 ;; flycheck
 (push '(flycheck-error-list-mode :stick t) popwin:special-display-config)
+
+;; pt
+(push '("^\*pt-search*" :regexp t: :position bottom :height 0.3 :dedicated t)
+      popwin:special-display-config)

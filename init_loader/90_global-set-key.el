@@ -11,6 +11,8 @@
 (global-set-key (kbd "C-c b") 'helm-descbinds)
 (global-set-key (kbd "C-c o") 'helm-occur)
 (global-set-key (kbd "C-c y") 'helm-show-kill-ring)
+(global-set-key (kbd "C-x C-f") 'helm-find-files)
+(global-set-key (kbd "C-x C-b") 'helm-buffers-list)
 
 ;; direx
 (global-set-key (kbd "C-x C-j") 'direx:jump-to-directory-other-window)
