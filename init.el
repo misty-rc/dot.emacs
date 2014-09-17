@@ -19,11 +19,13 @@
     go-eldoc
     go-direx
     go-autocomplete
+    google
     helm
     helm-descbinds
     helm-flycheck
     helm-package
     helm-go-package
+    helm-google
     js2-mode
     markdown-mode
     markdown-mode+
@@ -32,6 +34,7 @@
     plsql
     sql-indent
     popwin
+    yasnippet
     powerline
     rainbow-delimiters
     rainbow-mode
