@@ -2,6 +2,9 @@
 (setq default-directory "~/")
 (setq command-line-default-directory "~/")
 
+;; set charset cp932 for windows, filename and path
+(set-default-coding-systems 'utf-8-dos)
+(setq default-file-name-coding-system 'japanese-cp932-dos)
 
 ;;;** 標準IMEの設定
 (setq default-input-method "W32-IME")
