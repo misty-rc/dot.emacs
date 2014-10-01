@@ -1,2 +1,2 @@
 ;; rainbow-delimiters-mode
-(global-rainbow-delimiters-mode t)
+;;(global-rainbow-delimiters-mode t)
