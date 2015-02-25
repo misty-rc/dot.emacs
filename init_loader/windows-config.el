@@ -39,7 +39,8 @@
 ;; └─────────────────────────────┘
 ;;
 
-(defconst FONT_FAMILY "Migu 1M")
+;;(defconst FONT_FAMILY "Migu 1M")
+(defconst FONT_FAMILY "Myrica M")
 (defconst FONT_SIZE 12)
 (set-frame-font (concat FONT_FAMILY "-" (format "%s" FONT_SIZE)))
 
@@ -51,6 +52,6 @@
                 '(left . 30)
                 '(top  . 10)
                 '(width  .  150)
-                '(height .  50)
+                '(height .  55)
                 )
                default-frame-alist))

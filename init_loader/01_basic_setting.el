@@ -16,5 +16,5 @@
             backup-directory-alist))
 
 ;; theme
-(load-theme 'molokai t t)
-(enable-theme 'molokai)
+(load-theme 'atom-dark t)
+;;(load-theme 'zenburn t)
