@@ -7,3 +7,5 @@ elpa
 server
 eshell
 url
+projectile.cache
+.mc-lists.el
