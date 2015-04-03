@@ -3,6 +3,7 @@
   '(progn
      (require 'go-autocomplete)
      (define-key go-mode-map (kbd "C-c C-o") 'go-direx-pop-to-buffer)
+     (define-key go-mode-map (kbd "C-c C-:") 'pop-tag-mark)
      (add-hook 'go-mode-hook
                #'(lambda ()
                    (go-eldoc-setup)))

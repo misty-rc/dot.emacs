@@ -1,12 +1,12 @@
 ;; popwin
 (require 'popwin)
-;;(popwin-mode 1)
+(popwin-mode 1)
 ;;(setq display-buffer-function 'popwin:display-buffer)
 ;;(setq popwin:popup-window-position 'bottom)
 
-(defvar popwin:special-display-config-backup popwin:special-display-config)
-(custom-set-variables
- '(display-buffer-function 'popwin:display-buffer))
+;;(defvar popwin:special-display-config-backup popwin:special-display-config)
+;;(custom-set-variables
+;; '(display-buffer-function 'popwin:display-buffer))
 
 ;; shell-mode
 (push '("^\*shell*" :regexp t :position bottom :height 0.3 :dedicated t)

@@ -1,9 +1,12 @@
 ;;; -*- coding: utf-8 -*-
 
+(setq url-proxy-services '(("http" . "10.10.8.10:8080")
+                           ("https" . "10.10.8.10:8080")))
+
 ;;; package initialize
 (require 'package)
 (add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages/"))
-(add-to-list 'package-archives  '("marmalade" . "http://marmalade-repo.org/packages/"))
+(add-to-list 'package-archives  '("marmalade" . "https://marmalade-repo.org/packages/"))
 (package-initialize)
 
 ;;; package install
@@ -22,9 +25,11 @@
     go-eldoc
     go-direx
     go-autocomplete
+    go-projectile
     google
     projectile
     helm
+    helm-ag
     helm-descbinds
     helm-flycheck
     helm-package
