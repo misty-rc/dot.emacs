@@ -1,4 +1,5 @@
 ;;; -*- coding: utf-8 -*-
+(load-theme 'tronesque t)
 (setq default-directory "~/")
 (setq command-line-default-directory "~/")
 

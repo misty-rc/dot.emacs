@@ -22,7 +22,7 @@
 ;;(load-theme 'lush t)
 ;;(load-theme 'gotham t)
 ;;(load-theme 'warm-night t)
-(load-theme 'tronesque t)
+;;(load-theme 'tronesque t)
 
 
 (require 'dired)
